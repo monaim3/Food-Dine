@@ -1,0 +1,16 @@
+[{
+    "id": 1,
+    "img": "https://i.ibb.co/r52Jj6x/adult-blur-blurred-background-687824.png",
+    "Delivery": "Fast Delivery",
+    "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio."
+  }, {
+    "id": 2,
+    "img": "https://i.ibb.co/0GK8kV3/architecture-building-city-2047397.png",
+    "Delivery": "A Good Responder",
+    "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. "
+  }, {
+    "id": 3,
+    "img": "https://i.ibb.co/KzyHprF/chef-cook-food-33614.png",
+    "Delivery": "Home Delivery",
+    "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum."
+  }]
