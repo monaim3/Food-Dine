@@ -17,6 +17,9 @@ input {
     padding: 10px 15px;
     text-align: center;
 }
+.bannarImg{
+    width: 100%;
+}
 input:focus{
     outline: none;
 }
@@ -29,4 +32,53 @@ input:focus{
     /* margin-right: 0px; */
     position: absolute;
     left: 63%;
+ }
+ 
+/* @media only screen  and (min-width:361px) and (max-width: 768px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .carousel-indicators {
+
+        top: 93%;
+        left: 0;
+     
+    }
+    .bannarImg {
+        width: 120%!important;
+    }
+    .Searcbtn {
+        left: 75%;
+    }
+    input {
+        width: 61%;
+    }
 }
+@media only screen  and (max-width: 360px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .carousel-indicators {
+
+        top: 93%;
+        left: 0;
+     
+    }
+    .bannarImg {
+        width: 215%!important;
+    }
+    .Searcbtn {
+        left: 75%;
+    }
+    input {
+        width: 61%;
+    }
+} */

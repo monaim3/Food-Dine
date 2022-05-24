@@ -4,7 +4,7 @@ import './DeliveryDeatils.css'
 const DeliveryDeatils = (props) => {
     const {img,Delivery,description,id}=props.service
     return (
-        <div>
+        <div data-aos="zoom-in-up" data-aos-duration="1000">
             <Col>
             
             <Card style={{ width: '18rem' ,textAlign:"center", border:"none", marginTop:"10%"}}>

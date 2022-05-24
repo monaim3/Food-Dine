@@ -1,0 +1,28 @@
+.food{
+    width: 300px;
+    height:300px ;
+}
+.icon button {
+    border: none;
+    outline: none;
+    background: none;
+}
+.icon {
+    margin-top: 1.5%;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-left: 4%;
+}
+i.fa-solid.fa-minus {
+    color: #f91944;
+}
+button.add {
+    border: none;
+    background-color: #f91944;
+    padding: 6px 17px;
+    border-radius: 15px;
+    color:#fff;
+}
+.content-area {
+    margin-top: 6%;
+}

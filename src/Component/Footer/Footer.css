@@ -12,3 +12,8 @@ li a{
 .footer p{
     color :#fff;
 }
+@media only screen  and (max-width: 360px){
+    p.termsANd {
+        margin: -33px 10px;
+    }
+}

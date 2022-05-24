@@ -20,7 +20,7 @@ const Delivery = () => {
             <Container>
                 <Row xs={1} md={3} className="g-4">
              {
-                 services.map(service=><DeliveryDeatils service={service}></DeliveryDeatils>)
+                 services.map(service=><DeliveryDeatils service={service} key={service.id}></DeliveryDeatils>)
              }
              </Row>
             </Container>

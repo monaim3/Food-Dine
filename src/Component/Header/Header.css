@@ -1,6 +1,12 @@
 img {
     width: 200px;
 }
+.profileimg{
+    width: 31px;
+    border-radius: 50%;
+    border:1px solid #ddd;
+}
+
 a.signup.nav-link {
     background-color: #F91944;
     border-radius: 15px;

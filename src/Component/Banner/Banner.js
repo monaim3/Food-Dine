@@ -1,15 +1,17 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Col, Row } from 'react-bootstrap';
 import './Banner.css'
 import banner1 from '../../images/bannerbackground.png';
 import banner2 from '../../images/spider-web-gb366ca0f5_1280.jpg'
 const Banner = () => {
     return (
         <>
+        <Row>
+        <Col>
            <Carousel>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block  bannarImg"
       src={banner1}
       alt="First slide"
     />
@@ -21,7 +23,7 @@ const Banner = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block  bannarImg"
       src={banner1}
       alt="Second slide"
     />
@@ -35,7 +37,7 @@ const Banner = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block  bannarImg"
       src={banner1}
       alt="Third slide"
     />
@@ -48,6 +50,9 @@ const Banner = () => {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel> 
+</Col>
+</Row>
+
         </>
     );
 };

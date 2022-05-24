@@ -38,7 +38,7 @@ const Footer = () => {
     </Col>
     
     <Col xs={6} md={2} >
-    <p>terms of  condition</p>
+    <p className='termsANd'>terms of  condition</p>
 
     </Col>
     <Col xs={6} md={1} >
